@@ -3,10 +3,16 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BasicComponent } from './basic/basic.component';
+import { ColumnComponent } from './column/column.component';
+import { DiceComponent } from './dice/dice.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BasicComponent,
+    ColumnComponent,
+    DiceComponent
   ],
   imports: [
     BrowserModule,

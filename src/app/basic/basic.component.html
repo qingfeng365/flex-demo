@@ -1,0 +1,67 @@
+
+<h6>缺省 flex(box不设宽高)</h6>
+<div class="box">
+  <div class="item item-1 h100 w100">固定宽100高100</div>
+  <div class="item item-2 w100">固定宽100</div>
+  <div class="item item-3 h200">固定高200</div>
+  <div class="item item-4">自动宽高</div>
+</div><br/>
+<h6>缺省 flex + item(m-auto) (box不设宽高)</h6>
+<div class="box">
+  <div class="item item-1 h100 w100 m-auto">固定宽高</div>
+  <div class="item item-2 w100 m-auto">固定宽</div>
+  <div class="item item-3 h100 m-auto">固定高</div>
+  <div class="item item-4 m-auto">自动宽高</div>
+</div><br/>
+<h6>缺省 flex(box设高)</h6>
+<div class="box h200">
+  <div class="item item-1 h100 w100">固定宽高</div>
+  <div class="item item-2 w100">固定宽</div>
+  <div class="item item-3 h100">固定高</div>
+  <div class="item item-4">自动宽高</div>
+</div><br/>
+<h6>.flex-1-1-auto (box设高)</h6>
+<div class="box h200">
+  <div class="item flex-1-1-auto"></div>
+  <div class="item w100">固定宽</div>
+  <div class="item flex-1-1-auto"></div>
+  <div class="item item-4">自动宽高</div>
+</div><br/>
+<h6>flex (flex: 0 0 45% flex: 0 0 10%)</h6>
+<div class="box h200">
+  <div class="item flex-b-45p"></div>
+  <div style="min-width:50px;" class="item flex-b-10p">固定宽</div>
+  <div class="item flex-1-1-auto"></div>
+  <div class="item item-4">自动宽高</div>
+</div><br/>
+<h6>flex (flex-wrap flex: 1 1 100%)</h6>
+<div class="box flex-wrap">
+  <div class="item item-1 flex-1-1-100p">1</div>
+  <div class="item item-2 flex-1-1-100p">2</div>
+  <div class="item item-3 flex-1-1-100p">3</div>
+  <div class="item item-4 flex-1-1-100p">4</div>
+</div><br/>
+<h6>flex (圣杯布局)</h6>
+<div class="box flex-wrap">
+  <div class="item item-1 flex-1-1-100p">1</div>
+  <div class="item item-2 side">2</div>
+  <div class="item item-3 content">3</div>
+  <div class="item item-4 side">4</div>
+  <div class="item item-5 flex-1-1-100p">5</div>
+</div><br/>
+<h6>flex (主轴不换行,不收缩)</h6>
+<div class="box">
+  <div class="item item-1 flex-0-0-30p">1</div>
+  <div class="item item-2 flex-0-0-30p">2</div>
+  <div class="item item-3 flex-0-0-30p">3</div>
+  <div class="item item-4 flex-0-0-30p">4</div>
+  <div class="item item-5 flex-0-0-30p">5</div>
+</div><br/>
+<h6>flex (主轴换行,不收缩)</h6>
+<div class="box flex-wrap">
+  <div class="item item-1 flex-0-0-30p">1</div>
+  <div class="item item-2 flex-0-0-30p">2</div>
+  <div class="item item-3 flex-0-0-30p">3</div>
+  <div class="item item-4 flex-0-0-30p">4</div>
+  <div class="item item-5 flex-0-0-30p">5</div>
+</div><br/><br/>

@@ -1,0 +1,67 @@
+h6 缺省 flex(box不设宽高)
+.box
+  .item.item-1.h100.w100 固定宽100高100
+  .item.item-2.w100 固定宽100
+  .item.item-3.h200 固定高200
+  .item.item-4 自动宽高
+br
+h6 缺省 flex + item(m-auto) (box不设宽高)
+.box
+  .item.item-1.h100.w100.m-auto 固定宽高
+  .item.item-2.w100.m-auto 固定宽
+  .item.item-3.h100.m-auto 固定高
+  .item.item-4.m-auto 自动宽高
+br
+h6 缺省 flex(box设高)
+.box.h200
+  .item.item-1.h100.w100 固定宽高
+  .item.item-2.w100 固定宽
+  .item.item-3.h100 固定高
+  .item.item-4 自动宽高
+br
+h6 .flex-1-1-auto (box设高)
+.box.h200
+  .item.flex-1-1-auto
+  .item.w100 固定宽
+  .item.flex-1-1-auto
+  .item.item-4 自动宽高
+br
+h6 flex (flex: 0 0 45% flex: 0 0 10%)
+.box.h200
+  .item.flex-b-45p
+  .item.flex-b-10p(style="min-width:50px;") 固定宽
+  .item.flex-1-1-auto
+  .item.item-4 自动宽高
+br
+h6 flex (flex-wrap flex: 1 1 100%)
+.box.flex-wrap
+  .item.item-1.flex-1-1-100p 1
+  .item.item-2.flex-1-1-100p 2
+  .item.item-3.flex-1-1-100p 3
+  .item.item-4.flex-1-1-100p 4
+br
+h6 flex (圣杯布局)
+.box.flex-wrap
+  .item.item-1.flex-1-1-100p 1
+  .item.item-2.side 2
+  .item.item-3.content 3
+  .item.item-4.side 4
+  .item.item-5.flex-1-1-100p 5
+br
+h6 flex (主轴不换行,不收缩)
+.box
+  .item.item-1.flex-0-0-30p 1
+  .item.item-2.flex-0-0-30p 2
+  .item.item-3.flex-0-0-30p 3
+  .item.item-4.flex-0-0-30p 4
+  .item.item-5.flex-0-0-30p 5
+br
+h6 flex (主轴换行,不收缩)
+.box.flex-wrap
+  .item.item-1.flex-0-0-30p 1
+  .item.item-2.flex-0-0-30p 2
+  .item.item-3.flex-0-0-30p 3
+  .item.item-4.flex-0-0-30p 4
+  .item.item-5.flex-0-0-30p 5
+br
+br

@@ -1,0 +1,11 @@
+.container
+  h2.mt-3 flex Demo
+  div
+    a([routerLink]="['basic']") row
+    | &nbsp;
+    a([routerLink]="['column']") column
+    | &nbsp;
+    a([routerLink]="['dice']") 骰子
+  hr
+  .demo-main-wrap
+    router-outlet

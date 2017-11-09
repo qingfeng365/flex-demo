@@ -1,0 +1,18 @@
+.flex-b-10p {
+  flex: 0 0 10%;
+}
+
+.flex-b-45p {
+  flex: 0 0 45%;
+}
+
+.side {
+  flex: 1 1 auto;
+  min-width: 100px;
+  max-width: 120px;
+}
+
+.content {
+  flex: 3 1 0px;
+  min-width: 200px;
+}
