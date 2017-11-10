@@ -18,7 +18,6 @@ h6 缺省 flex + item (box不设宽高,justify-content-around)
   .item.item-2.w100 固定宽
   .item.item-3.h100 固定高
   .item.item-4 自动宽高
-
 br
 h6 缺省 flex(box设高)
 .box.h200
@@ -27,18 +26,25 @@ h6 缺省 flex(box设高)
   .item.item-3.h100 固定高
   .item.item-4 自动宽高
 br
+h6 缺省 flex(box设高100,item高200)
+.box.h100
+  .item.item-1.h200.w100 固定宽高
+  .item.item-2.w100 固定宽
+  .item.item-3.h100 固定高
+  .item.item-4 自动宽高
+br
 h6 .flex-1-1-auto (box设高)
 .box.h200
-  .item.flex-1-1-auto
+  .item.flex-1-1-auto flex-1-1-auto
   .item.w100 固定宽
-  .item.flex-1-1-auto
+  .item.flex-1-1-auto flex-1-1-auto
   .item.item-4 自动宽高
 br
 h6 flex (flex: 0 0 45% flex: 0 0 10%)
 .box.h200
-  .item.flex-b-45p
+  .item.flex-b-45p 0 0 45%
   .item.flex-b-10p(style="min-width:50px;") 固定宽
-  .item.flex-1-1-auto
+  .item.flex-1-1-auto 0 0 10%
   .item.item-4 自动宽高
 br
 h6 flex (flex-wrap flex: 1 1 100%)

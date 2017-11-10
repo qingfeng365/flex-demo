@@ -27,18 +27,25 @@
   <div class="item item-3 h100">固定高</div>
   <div class="item item-4">自动宽高</div>
 </div><br/>
+<h6>缺省 flex(box设高100,item高200)</h6>
+<div class="box h100">
+  <div class="item item-1 h200 w100">固定宽高</div>
+  <div class="item item-2 w100">固定宽</div>
+  <div class="item item-3 h100">固定高</div>
+  <div class="item item-4">自动宽高</div>
+</div><br/>
 <h6>.flex-1-1-auto (box设高)</h6>
 <div class="box h200">
-  <div class="item flex-1-1-auto"></div>
+  <div class="item flex-1-1-auto">flex-1-1-auto</div>
   <div class="item w100">固定宽</div>
-  <div class="item flex-1-1-auto"></div>
+  <div class="item flex-1-1-auto">flex-1-1-auto</div>
   <div class="item item-4">自动宽高</div>
 </div><br/>
 <h6>flex (flex: 0 0 45% flex: 0 0 10%)</h6>
 <div class="box h200">
-  <div class="item flex-b-45p"></div>
+  <div class="item flex-b-45p">0 0 45%</div>
   <div style="min-width:50px;" class="item flex-b-10p">固定宽</div>
-  <div class="item flex-1-1-auto"></div>
+  <div class="item flex-1-1-auto">0 0 10%</div>
   <div class="item item-4">自动宽高</div>
 </div><br/>
 <h6>flex (flex-wrap flex: 1 1 100%)</h6>
